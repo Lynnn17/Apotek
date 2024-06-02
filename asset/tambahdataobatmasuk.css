@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "ProductSans";
+  src: url('font/ProductSans.ttf');
+}
+div{
+   font-family: ProductSans;
+ }
+/*BG Halaman*/
+body{
+    background-image: url(BG.png);
+    background-size: cover;
+    font-family: ProductSans;
+}
+/*font ng button*/
+button{
+	font-family: ProductSans;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/*Base form*/
+.tambah{
+	background-color: white;
+	width: 350px;
+	height: 645px;
+	border-radius: 20px;
+	padding: 20px 50px 50px 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Button save*/
+.nambah{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 90%;
+	border-radius: 9px;
+	font-family: product sans;
+	font-size: 11px;
+	padding: 10px;
+	border-style: none;
+}
+
+/*input data*/
+input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 150px;
+	padding: 8px;
+	border-radius: 10px;
+	border: solid 1px #00C853;
+	font-family: product sans;
+}
+
+ select{
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 width: 168px;
+	 padding: 8px;
+	 border-radius: 10px;
+	 border: solid 1px #00C853;
+	 font-family: product sans;
+ }
+
+.simpan{
+	margin-left: 310px;
+	background-color: white;
+	color: #00C853;
+	border: solid 1px #00C853;
+	border-radius: 9px;
+	padding: 8px;
+	font-size: 10px;
+}
+
+.simpan:hover{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+}

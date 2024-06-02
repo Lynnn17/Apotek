@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "ProductSans";
+  src: url('font/ProductSans.ttf');
+}
+div{
+   font-family: ProductSans;
+ }
+/*BG Halaman*/
+body{
+    background-image: url(BG.png);
+    background-size: cover;
+    font-family: ProductSans;
+}
+h2{
+	margin-bottom: 30px;
+	text-align: center;
+}
+/*Base form*/
+.tambah{
+	background-color: white;
+	width: 350px;
+	height: 360px;
+	border-radius: 20px;
+	padding: 30px 70px 80px 50px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+/*Button save*/
+.simpan{
+	background-color: white;
+	color: #00C853;
+	margin-top: 20px;
+	margin-left: 90%;
+	border-radius: 9px;
+	font-family: product sans;
+	font-size: 11px;
+	padding: 10px;
+	border:solid 1px #00C853;
+}
+.simpan:hover{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+}
+/*input data*/
+input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 150px;
+	padding: 8px;
+	border-radius: 10px;
+	border: solid 1px #00C853;
+	font-family: product sans;
+}
+ select{
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 width: 168px;
+	 padding: 8px;
+	 border-radius: 10px;
+	 border: solid 1px #00C853;
+	 font-family: product sans;
+ }

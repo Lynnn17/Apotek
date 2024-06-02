@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "ProductSans";
+  src: url('font/ProductSans.ttf');
+}
+div{
+   font-family: ProductSans;
+ }
+/*BG Halaman*/
+body{
+    background-image: url(BG.png);
+    background-size: cover;
+    font-family: ProductSans;
+}
+
+.bingkai{
+	background: white;
+	width: 430px;
+	height: 390px;
+	margin: 20px auto;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+	border-radius: 16px;
+}
+
+.bingkai h1{
+	margin-top: 90px;
+	text-align: center;
+}
+
+.bingkai .login input{
+	border: solid 1px #00C853;
+	border-radius: 9px;
+	padding: 12px 10px 12px 10px;
+	font-size: 12px;
+	font-family: product sans;
+	display: block;
+	margin-left: 105px;
+	margin-top: 20px;
+	width: 200px;
+}
+
+.bingkai .login .password{
+	margin-top: 10px;
+}
+
+.bingkai .login .masuk{
+	margin-top: 20px;
+	margin-left: 185px;
+}
+
+button{
+	border-radius: 9px;
+	border-style: none;
+	background-color: #00C853;
+	color: white;
+	font-size: 13px;
+	font-family: product sans;
+	padding: 10px 15px 10px 15px;
+}
+
+button:hover{
+	background-color: #59d68d;
+	cursor: pointer;
+}

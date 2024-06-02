@@ -1,0 +1,56 @@
+body{
+	font-family: product sans;
+	background-size: cover;
+}
+
+.tambah{
+	background-color: white;
+	width: 400px;
+	height: 360px;
+	border-radius: 30px;
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.simpan{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 90%;
+	border-radius: 10px;
+	font-family: product sans;
+	font-size: 11px;
+	padding: 10px;
+	border-style: none;
+}
+
+input{
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 1px #00C853;
+	font-family: product sans;
+}
+
+button{
+	background-color: #00C853;
+	color: white;
+	border-radius: 9px;
+	padding: 10px 12px 10px 12px;
+	font-family: product sans;
+	font-size: 12px;
+	border: none;
+}
+
+select{
+	margin-top: 10px;
+	border: solid 1px #00C853;
+	border-radius: 9px;
+	padding: 8px;
+	font-family: product sans;
+	font-size: 12px;
+}

@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "ProductSans";
+  src: url('font/ProductSans.ttf');
+}
+div{
+   font-family: ProductSans;
+ }
+/*BG Halaman*/
+body{
+    background-image: url(BG.png);
+    background-size: cover;
+    font-family: ProductSans;
+}
+/*font ng button*/
+button{
+	font-family: ProductSans;
+}
+
+/*BG Base Tabel*/
+.bingkai{
+	background: white;
+	width: 900px;
+	margin: 20px auto;
+	border-radius: 16px;
+}
+
+/*BG Header*/
+.bingkai .header{
+	background: white;
+	height: 50px;
+	padding: 2px;
+	border-radius: 16px 16px 0px 0px;
+	border-bottom: solid 1px;
+  text-align: center;
+}
+
+/*BG Menu nduwur*/
+.bingkai .menu{
+	background: white;
+    height:50px;
+    border-bottom: solid 1px;
+}
+
+/*hover button menu nduwur*/
+.bingkai .menu button:hover{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+}
+
+/*Button ng menu nduwur*/
+.bingkai .menu button{
+	background-color: white;
+	color: #00C853;
+	font-size: 11px;
+	padding: 10px;
+	margin-left: 420px;
+	margin-top: 7px;
+	border-radius: 9px;
+	border: solid 1px #00C853;
+}
+
+/*Label menu nduwur*/
+.bingkai .menu label{
+	float: left;
+	padding: 10px;
+	margin-right: 225px;
+	margin-top: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*body ngisor*/
+.badan{
+	height: 500px;
+}
+
+/*sidebar*/
+.bingkai .badan .sidebar{
+	background: #FFF;
+	float: left;
+	width: 24%;
+	height: 100%;
+	border-radius: 0px 0px 0px 16px;
+	border-right: solid 1px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.2);
+  border-radius: 16px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 16px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*button ng sidebar*/
+.bingkai .badan .sidebar button{
+	background-color: white;
+	color: #00C853;
+	font-size: 15px;
+	padding: 12px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	border: solid 1px #00C853;
+	border-radius: 9px;
+}
+
+/*Hover button sidebar*/
+.bingkai .badan .sidebar button:hover{
+	background-color: #00C853;
+	color: white;
+	cursor: pointer;
+}
+
+/*button logout*/
+.bingkai .badan .sidebar .logout button:hover{
+	background-color: #E53935;
+	color: white;
+	cursor: pointer;
+}
+
+/*Button ng menu nduwur*/
+.bingkai .badan .sidebar .logout button{
+	background-color: white;
+	color: #E53935;
+	font-size: 15px;
+	padding: 12px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	border: solid 1px #E53935;
+	border-radius: 9px;
+}
+
+/*Button penjualan sidebar*/
+.bingkai .sidebar .sidebar button{
+	background-color: white;
+	color: #00C853;
+	font-size: 15px;
+	padding: 12px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	border: solid 1px #00C853;
+	border-radius: 9px;
+}
+
+.bingkai .badan .content{
+	background: white;
+	float: left;
+  margin-left: 4px;
+	height: auto;
+	width: 75%;
+	border-radius: 0px 0px 16px 0px;
+}
+
+.bingkai .badan .content .paging{
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+.bingkai .badan .content .paging .prv{
+  text-decoration: none;
+  color: #00C853;
+  background-color: #BCFFCC;
+  font-family: ProductSans;
+  border: solid 1px #BCFFCC;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bingkai .badan .content .paging .prv:hover{
+  background-color: #00C853;
+  border: solid 1px #00C853;
+  color: white;
+}
+
+.bingkai .badan .content .paging .nxt{
+  text-decoration: none;
+  color: #00C853;
+  background-color: #BCFFCC;
+  font-family: ProductSans;
+  border: solid 1px #BCFFCC;
+  line-height: 50px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+}
+
+.bingkai .badan .content .paging .nxt:hover{
+  background-color: #00C853;
+  border: solid 1px #00C853;
+  color: white;
+}
+
+.bingkai .badan .content .paging .disabled{
+  text-decoration: none;
+  color: #A8A8A8;
+  background-color: #DEDEDE;
+  font-family: ProductSans;
+  border: solid 1px #DEDEDE;
+  line-height: 50px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+}
+
+.bingkai .badan .content .paging .disabled:hover{
+  background-color: #C2C2C2;
+  color: white;
+  border: solid 1px #C2C2C2;
+  cursor: pointer;
+}
+
+.bingkai .badan .content .paging .number{
+  text-decoration: none;
+  color: #00C853;
+  background-color: #BCFFCC;
+  font-family: ProductSans;
+  border: solid 1px #BCFFCC;
+  line-height: 50px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+}
+
+.bingkai .badan .content .paging .number:hover{
+  background-color: #00C853;
+  border: solid 1px #00C853;
+  color: white;
+}
+
+/*search bar*/
+.bingkai .badan .search input{
+  border-radius: 8px;
+  border: solid 1px #DCDCDE;
+  padding: 10px;
+  width: 58%;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 12px;
+  font-family: ProductSans;
+}
+
+/*search button*/
+.bingkai .badan .search .cari{
+  background-color: white;
+  color: #00C853;
+  border: solid 1px #00C853;
+  border-radius: 8px;
+  padding: 8px 12px 8px 12px;
+  font-size: 11px;
+  margin-left: 14px;
+  margin-right: 5px;
+}
+
+/*search button hover*/
+.bingkai .badan .search .cari:hover{
+  background-color: #00C853;
+  color: white;
+  cursor: pointer;
+}
+
+/*reset button*/
+.bingkai .badan .search .resetbtn{
+  background-color: white;
+  color: #E53935;
+  border: solid 1px #E53935;
+  border-radius: 8px;
+  padding: 8px 12px 8px 12px;
+  font-size: 11px;
+}
+
+/*reset button hover*/
+.bingkai .badan .search .resetbtn:hover{
+  background-color: #E53935;
+  color: white;
+  cursor: pointer;
+}
